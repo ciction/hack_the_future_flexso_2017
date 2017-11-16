@@ -1,0 +1,18 @@
+<mvc:View controllerName="flexso.behackthefuturetest.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<l:VerticalLayout>
+						<Text text="hello"></Text>
+						
+						<Text text="{/model/oData/setlists/setlist[0]/eventDate}"></Text>
+						<Text text="{/model/iSizeLimit}"></Text>
+						<Button press="initTodoModel"></Button>
+					</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
