@@ -8,7 +8,7 @@ sap.ui.define([
 		onInit: function() {
 
 			var oModel = this.getOwnerComponent().getModel("htf");
-
+//testpush
 			//set data to our model
 			this.getView().setModel(new JSONModel({
 				model: oModel
